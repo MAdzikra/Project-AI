@@ -28,7 +28,7 @@
 <!-- Latar Belakang -->
 ## Latar Belakang
 
-Aplikasi "AUTOMATIC ATTANDANCE" merupakan aplikasi untuk mempermudah absensi mahasiswa dengan melalui face recognition. Dengan adanya aplikasi ini, memungkinkan kita menghindari yang namanya "tipsen" atau absen fiktif. Selain itu, aplikasi ini juga dapat secara akurat mengindikasikan waktu kehadiran mahasiswa agar dapat diklasifikasikan apakah mahasiswa tersebut terlambat atau tidak. Aplikasi ini juga memiliki manfaaat sebagai berikut : 
+Aplikasi "AUTOMATIC ATTENDANCE" merupakan aplikasi untuk mempermudah absensi mahasiswa dengan melalui face recognition. Dengan adanya aplikasi ini, memungkinkan kita menghindari yang namanya "tipsen" atau absen fiktif. Selain itu, aplikasi ini juga dapat secara akurat mengindikasikan waktu kehadiran mahasiswa agar dapat diklasifikasikan apakah mahasiswa tersebut terlambat atau tidak. Aplikasi ini juga memiliki manfaaat sebagai berikut : 
 
 <ol>
 <li>Meningkatkan keamanan sistem absensi</li>
