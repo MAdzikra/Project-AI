@@ -16,7 +16,7 @@
 </details>
 
 <!-- Anggota Tim -->
-## Anggota Tim - RONALDO FANS CLUB
+## Anggota Tim
 | NPM           | Name                            |
 | ------------- |---------------------------------|
 | 140810220002  | Muhammad Faiz Fahri             |
