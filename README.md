@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">
-    ## AUTOMATIC ATTENDANCE USING FACE RECOGNITION
+    AUTOMATIC ATTENDANCE USING FACE RECOGNITION
   </h1>
 </p>
 
