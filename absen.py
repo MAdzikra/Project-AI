@@ -26,7 +26,22 @@ def train_existing_data():
     model.train(faces, np.array(ids))
     print("Model berhasil dilatih dengan data yang sudah ada!")
 
-train_existing_data()
+def check_existing_data():
+    """Fungsi untuk memeriksa keberadaan data pelatihan sebelum melanjutkan proses pelatihan model."""
+    if os.path.exists('dataset') and any(os.scandir('dataset')):
+        train_existing_data()
+    else:
+        print("Tidak ada data pelatihan yang tersedia. Silakan rekam wajah terlebih dahulu.")
+
+check_existing_data()
+
+def check_existing_training_data():
+    """Fungsi untuk memeriksa keberadaan data pelatihan sebelum melanjutkan proses pelatihan model."""
+    if os.path.exists('dataset') and any(os.scandir('dataset')):
+        train_faces()
+    else:
+        print("Tidak ada data pelatihan yang tersedia. Proses pelatihan tidak perlu dilakukan.")
+
 
 def resize_image(image, size=(200, 200)):
     """Fungsi untuk mengubah ukuran gambar."""
@@ -107,7 +122,7 @@ display_img.pack()
 btn_capture = tk.Button(frame, text="Rekam Wajah", command=capture_face)
 btn_capture.pack(side=tk.LEFT)
 
-btn_train = tk.Button(frame, text="Latih Model", command=train_faces)
+btn_train = tk.Button(frame, text="Latih Model", command=check_existing_training_data)
 btn_train.pack(side=tk.LEFT)
 
 btn_recognize = tk.Button(frame, text="Absen", command=recognize_face)
