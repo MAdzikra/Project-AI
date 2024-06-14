@@ -135,16 +135,6 @@ def recognize_and_attend(model_path='models/face_recognition_model.xml', output_
     camera.release()
     cv2.destroyAllWindows()
 
-    if recognized:
-        for name, npm in attendance_set:
-            with open(output_csv, 'a', newline='') as f:
-                writer = csv.writer(f)
-                writer.writerow([name, npm, time.strftime("%Y-%m-%d %H:%M:%S")])
-                # Display welcome message
-                messagebox.showinfo("Welcome", f"Selamat datang {name} NPM {npm}!!")
-    else:
-        messagebox.showinfo("Unrecognized", "Wajah tidak dikenali!!")
-
 # Functions to connect with GUI buttons
 def register():
     name = entry_name.get()
