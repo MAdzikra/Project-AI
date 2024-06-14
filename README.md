@@ -37,8 +37,17 @@ Aplikasi "AUTOMATIC ATTENDANCE" merupakan aplikasi untuk mempermudah absensi mah
 <li>Meningkatkan akurasi data absensi</li>
 </ol>
 
+
 <!-- Penjelasan Aplikasi -->
-## Penjelasan Aplikasi
+## Alur Program
+<ol>
+<li>Jalankan Program
+<li>Isi Nama dan NPM
+<li>Tekan tombol Register untuk mendaftarkan wajah 
+<li>Setelah wajah ter-rekam, klik train model untuk melakukan training pada dataset
+<li>Jika ingin melakukan absen, Tekan tombol attend
+<li>Setelah wajah dikenali tekan "Q" atau "1" pada keyboard untuk melakukan absen
+</ol>
 
 <!-- Lisensi -->
 ## Lisensi
